@@ -1,0 +1,62 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizzeria Santinos</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header>
+        <h1>SANTINOS</h1>
+    </header>
+    
+      <nav>
+        <ul>
+          <li><a href="#INICIO">INICIO</a></li>
+          <li><a href="#MENU">MENU</a></li>
+          <li><a href="#CONTACTO">CONTACTO</a></li>
+          </ul>
+    </nav>
+
+    <section>
+      <h2>Bienvenidos a pizzeria Santinos</h2>
+      <p>Disfruta de nuestras deliciosas pizzas hechas con los mejores ingredientes.</p>
+    </section>
+    
+      <section id="menu">
+        <h2>NUESTRO MENU</h2>
+        <div class="pizza">
+          <img src="PIZZA1.JPG" alt="Pizza Margarita">
+          <h3>PIZZA MARGARITA</h3>
+          <p>INGREDIENTES: TOMATE, MOZZARELA, ACEITUNAS, OREGANO.</p>
+          <button class="boton">AGREGAR AL CARRITO</button>
+        </div>
+        <div class="pizza">
+          <IMG src="PIZZA2.JPG" alt="Pizza Calabresa">
+          <h3>PIZZA CALABRESA</h3>
+          <p>INGREDIENTES: TOMATE, MOZZARELLA, SALAME, ACEITUNAS, OREGANO</p>
+          <button class="boton">AGREGAR AL CARRITO</button>
+        </div>
+      </section>
+    
+      <section id="contact">
+        <h2>CONTACTO</h2>
+        <form>
+          <label for="nombre">Nombre:</label>
+          <input type="texto" id="nombre" name="nombre" placeholder="su nombre" required>
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" placeholder="su email" required>
+          <label for="mensaje">Mensaje:</label>
+          <textarea id="mensaje" name="mensaje" placeholder="su mensaje" required></textarea>
+          <button type="enviar">Enviar</button>
+        </form>
+      </section>
+    
+      <footer>
+        <p>&copy; 2021 PIZZERIA SANTINOS. ALL RIGHTS RESERVED.</p>
+      </footer>
+    
+      <script src="./main.js"></script>
+    
+</body>
+</html>
